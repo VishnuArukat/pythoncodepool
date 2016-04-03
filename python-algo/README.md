@@ -57,6 +57,20 @@ if the chess is a two dimensional array then the indexes are i,j where th i- row
 
 ###KNIGHT TOUR PROBLEM
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A sequence of moves a knight on a chess board such that knight visits every square only once.Closed tour means when the knights start point and the end point are same.Knight tour problem is an example of the more general hamiltonaian path problem.
 #####&nbsp;&nbsp;&nbsp;&nbsp;Method
+* In a chess board there are 8 possible moves for a knight
+ Schwenk Theorem
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For an mxn chess board closed knight tour is always feasible unless
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m and n are both odds
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m = 1,2 or 4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m=3 and n=4,6,or 8
+* start with an empty solution 2D matrix.
+* like backtracking check everytime when we add an item and if not suitable then backtrack or add it.
 
+###MAZE PROBLEM
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consist a chess board and and therer are some grayed boxes in the chess box and we can not travel to through that boxes and we have to get to the end position.
+#####&nbsp;&nbsp;&nbsp;&nbsp;Method
+* Pass the maze table as a 'o' and '1' and use the backtrack to backtrack when '0' encountered.
+* same as above codes.We can also solve this using the DFS(Depth First Search)
