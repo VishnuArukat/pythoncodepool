@@ -8,10 +8,10 @@ All programs are written with some comments that will give you a slight idea abo
 *Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution.
 backtracking is faster than the brute force because it can eliminate large number of candidate with single test.*
 
-* [N QUEENS PROBLEM](###N-QUEENS-PROBLEM)
-* [HAMILTONIAN CYCLE](###HAMILTONIAN CYCLE)
-* [COLORING PROBLEM](###COLORING PROBLEM)
-* [KNIGHT TOUR PROBLEM](###KNIGHT TOUR PROBLEM)
+* [N QUEENS PROBLEM](https://github.com/VishnuArukat/pythoncodepool/tree/master/python-algo#n-queens-problem)
+* [HAMILTONIAN CYCLE](https://github.com/VishnuArukat/pythoncodepool/tree/master/python-algo#hamiltonian-cycle)
+* [COLORING PROBLEM](https://github.com/VishnuArukat/pythoncodepool/tree/master/python-algo#coloring-problem)
+* [KNIGHT TOUR PROBLEM](https://github.com/VishnuArukat/pythoncodepool/tree/master/python-algo#knight-tour-problem)
 * [MAZE PROBLEM](https://github.com/VishnuArukat/pythoncodepool/blob/master/python-algo/README.md#maze-problem)
 
 
