@@ -8,7 +8,7 @@ All programs are written with some comments that will give you a slight idea abo
 *Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution.
 backtracking is faster than the brute force because it can eliminate large number of candidate with single test.*
 
-* N QUEENS PROBLEM
+* [N QUEENS PROBLEM](###N QUEENS PROBLEM)
 * HAMILTONIAN CYCLE
 * COLORING PROBLEM
 * KNIGHT TOUR PROBLEM
@@ -30,5 +30,5 @@ if the chess is a two dimensional array then the indexes are i,j where th i- row
 &nbsp;&nbsp;	then |i-k| = |j-l|
 * we are using a list to store the result as index as rowindex and the value as the coloumnindex.
 * Here i am going row vise by incrimenting the rowindex and checking the possible position for the queen using the preceding position in the current row
-* 
+* To know more you can check this [link](https://developers.google.com/optimization/puzzles/queens#propagation-and-backtracking) 
 
