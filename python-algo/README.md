@@ -47,4 +47,16 @@ if the chess is a two dimensional array then the indexes are i,j where th i- row
 
 ###COLORING PROBLEM
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hamiltonian Path is the undirectional path that visit every node exactly once.And 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coloring the vertices of a graph so that no two vertex has same color. This is also called vertex coloring.And the smallest number of color that needed to color the graph is known as the chromatic number.There may be more than one solution.For example we can color the graph with a vertices of 4 with 3 colors is 12.
+#####&nbsp;&nbsp;&nbsp;&nbsp;Method
+* assign color to the vertex one by one  starting from the first vertex which is optional.
+* Before applying color we check for the safety by looking all the already assigned colors to the adjacent vertex.
+* if we find a matching color then we mark it as a solution.
+* if we do not find a color then we backtrack.
+* for more information [google](https://www.google.co.in) it.
+
+###KNIGHT TOUR PROBLEM
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#####&nbsp;&nbsp;&nbsp;&nbsp;Method
+
