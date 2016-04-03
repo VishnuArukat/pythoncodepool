@@ -14,7 +14,7 @@ class QueensProblem(object):
 
 	def arrangeQueens(self,rowIndex):
 		
-		for i in xrange(self.numofqueens):
+		for i in xrange(self.numofqueens): #This loop is for the coloum incriment
 
 			if self.isPlaceValid(rowIndex,i):
 				self.queensArray[rowIndex] = i
