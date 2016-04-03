@@ -12,7 +12,7 @@ backtracking is faster than the brute force because it can eliminate large numbe
 * [HAMILTONIAN CYCLE](###HAMILTONIAN CYCLE)
 * [COLORING PROBLEM](###COLORING PROBLEM)
 * [KNIGHT TOUR PROBLEM](###KNIGHT TOUR PROBLEM)
-* [MAZE PROBLEM](###maze-problem)
+* [MAZE PROBLEM](###-maze-problem)
 
 
 
